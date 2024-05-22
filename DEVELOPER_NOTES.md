@@ -27,14 +27,12 @@ generated won't run properly.
 
 ## Generating the notebooks
 
-To generate notebooks do `include(/src/generate_all.jl)`. For some
-tutorials, a notebook may not be generated, because of some known
-issue. A warning will be issued and you'll need to generate the
-relevant notebook by hand. (At time of writing a pre-executed Jupiter
-notebook needs to be generated for
-`notebooks/01_getting_started/`. After generating the notebooks, copy
-`notebook.unexecuted.ipynb` to `notebook.ipynb`; execute the latter
-file and save.)
+To generate notebooks do `include("path/to/HelloJulia/src/generate_all.jl")`. For some tutorials, a notebook
+may not be generated, because of some known issue. A warning will be issued and you'll
+need to generate the relevant notebook by hand. 
+
+For example, to generate an executed python notebook for `notebooks/01_first_steps/`, copy
+`notebook.unexecuted.ipynb` to `notebook.ipynb`; execute the latter file and save.
 
 To generate notebooks for just one tutorial, `include` the file called
 `generate.jl` within the notebook's folder.
