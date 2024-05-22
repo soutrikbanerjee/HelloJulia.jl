@@ -4,9 +4,10 @@
 
 Setup is in **two** steps, which only need to be executed successfully once:
 
-- 1. [Install a correct version of the Julia compiler](FIRST_STEPS.md).
+1. [Install a correct version of the Julia compiler](FIRST_STEPS.md).
 
-- 2. **In a new Julia session** type the following at the `julia>` prompt, inlcuding a RETURN at the end of each line (or do copy/paste + one final RETURN):
+2. **In a new Julia session** type the following at the `julia>` prompt, inlcuding a
+   RETURN at the end of each line (or do copy/paste + one final RETURN):
 
 ```julia
 ENV["JULIA_PKG_PRECOMPILE_AUTO"]=0
