@@ -1,21 +1,8 @@
 ### A Pluto.jl notebook ###
-# v0.19.25
+# v0.16.0
 
 using Markdown
 using InteractiveUtils
-
-# ╔═╡ 4474fd86-9496-44c7-a6bf-47194d7e8e12
-begin
-  using Pkg
-  Pkg.activate(joinpath(@__DIR__, "..", ".."))
-  Pkg.instantiate()
-end
-
-# ╔═╡ 86f5ae82-8207-416e-9e54-3f7b3ca87ecb
-begin
-  using MLJ
-  import DataFrames
-end
 
 # ╔═╡ 5dad6a5d-e6e9-4ea0-9bca-7c69b794f8ce
 md"# Tutorial 3"
@@ -33,19 +20,32 @@ MLJ is a *multi-paradigm* machine learning toolbox (i.e., not just
 deep-learning).
 """
 
-# ╔═╡ b04c4790-59e0-42a3-af2a-25235e544a31
+# ╔═╡ 8aee3b0f-128f-444f-af2a-25235e544a31
 md"""
 For other MLJ learning resources see the [Learning
-MLJ](https://alan-turing-institute.github.io/MLJ.jl/dev/learning_mlj/)
+MLJ](https://JuliaAI.github.io/MLJ.jl/dev/learning_mlj/)
 section of the
-[manual](https://alan-turing-institute.github.io/MLJ.jl/dev/).
+[manual](https://JuliaAI.github.io/MLJ.jl/dev/).
 """
 
 # ╔═╡ 1734e972-19e8-4d40-8af5-148d95ea2900
 md"## Activate package environment"
 
+# ╔═╡ 4474fd86-9496-44c7-a6bf-47194d7e8e12
+begin
+  using Pkg
+  Pkg.activate(joinpath(@__DIR__, "..", ".."))
+  Pkg.instantiate()
+end
+
 # ╔═╡ 6f4d110c-7f0b-4e70-828a-4cc485149963
 md"## Establishing correct data representation"
+
+# ╔═╡ 86f5ae82-8207-416e-9e54-3f7b3ca87ecb
+begin
+  using MLJ
+  import DataFrames
+end
 
 # ╔═╡ e5885e24-b17b-471b-ba1f-6363f43ec697
 md"""
@@ -367,21 +367,21 @@ md"Or using a deterministic measure:"
 # ╔═╡ e5134375-cde5-41de-9625-01172c4a0081
 accuracy(yhat, y_test)
 
-# ╔═╡ 9fbdd706-c10a-4634-af4f-11c7de9e21dd
+# ╔═╡ a27faca1-5a03-41f5-af4f-11c7de9e21dd
 md"""
 List all performance measures with `measures()`. Naturally, MLJ
 includes functions to automate this kind of performance evaluation,
 but this is beyond the scope of this tutorial. See, eg,
-[here](https://alan-turing-institute.github.io/MLJ.jl/dev/getting_started/#Getting-Started).
+[here](https://JuliaAI.github.io/MLJ.jl/dev/getting_started/#Getting-Started).
 """
 
 # ╔═╡ 3e2e6de9-bfd4-4629-8dba-241d9b744683
 md"## Learning more"
 
-# ╔═╡ 72066eb3-9b46-4fa8-a6e5-2f0b4dca5c59
+# ╔═╡ 33aff020-66e0-4fa7-a6e5-2f0b4dca5c59
 md"""
 Some suggestions for next steps are
-[here](https://alan-turing-institute.github.io/MLJ.jl/dev/getting_started/#Getting-Started).
+[here](https://JuliaAI.github.io/MLJ.jl/dev/getting_started/#Getting-Started).
 """
 
 # ╔═╡ 135dac9b-0bd9-4e1d-8550-20498aa03ed0
@@ -395,7 +395,7 @@ md"""
 # ╟─5dad6a5d-e6e9-4ea0-9bca-7c69b794f8ce
 # ╟─33691746-74ed-425d-b795-033f6f2a0674
 # ╟─aa49e638-95dc-4249-935f-ddf6a6bfbbdd
-# ╟─b04c4790-59e0-42a3-af2a-25235e544a31
+# ╟─8aee3b0f-128f-444f-af2a-25235e544a31
 # ╟─1734e972-19e8-4d40-8af5-148d95ea2900
 # ╠═4474fd86-9496-44c7-a6bf-47194d7e8e12
 # ╟─6f4d110c-7f0b-4e70-828a-4cc485149963
@@ -408,7 +408,7 @@ md"""
 # ╠═5c2ec910-6444-4c53-8514-99938a2932db
 # ╟─ddaf1934-1aba-4ede-a0de-1721c1bc2df2
 # ╟─ca482134-299b-459a-bca8-7eec7950fd82
-# ╟─2d0de272-ed0a-4c6b-9873-1b1430e635cc
+# ╠═2d0de272-ed0a-4c6b-9873-1b1430e635cc
 # ╟─96c58ce9-9b29-4c5e-b43e-d0ebe87da176
 # ╠═9d2f0b19-2942-47ac-9009-4cfb2012998f
 # ╟─b90f3b7b-4de2-4a5c-abd3-cb77d7a79683
@@ -471,7 +471,7 @@ md"""
 # ╠═4fd67e05-c4d0-4858-9e90-09023d201062
 # ╟─7f127360-5da1-4bee-b7bb-2f33ef765cc0
 # ╠═e5134375-cde5-41de-9625-01172c4a0081
-# ╟─9fbdd706-c10a-4634-af4f-11c7de9e21dd
+# ╟─a27faca1-5a03-41f5-af4f-11c7de9e21dd
 # ╟─3e2e6de9-bfd4-4629-8dba-241d9b744683
-# ╟─72066eb3-9b46-4fa8-a6e5-2f0b4dca5c59
+# ╟─33aff020-66e0-4fa7-a6e5-2f0b4dca5c59
 # ╟─135dac9b-0bd9-4e1d-8550-20498aa03ed0

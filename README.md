@@ -1,36 +1,25 @@
-## &#10024; Participating in ResBaz 2023?
+## &#10024; Participating in ResBaz 2024?
 
-Start [here](https://github.com/ablaom/HelloJulia.jl/wiki/Preparing-for-your-ResBaz-2023-Julia-workshop) either of these workshops:
-
-- **Getting Started With the Julia Programming Language** 
-- **Introduction to Using Julia for Machine Learning**
-
----
-
-## Participating in JuliaCon 2022?
-
-Start [here](https://github.com/ablaom/HelloJulia.jl/wiki/JuliaCon-2022-workshop:-Getting-started-with-Julia-and-MLJ) for the workshop **Getting started with Julia and machine learning**.
+Start
+[here](https://github.com/ablaom/HelloJulia.jl/wiki/Preparing-for-your-ResBaz-2024-Julia-workshop)
+for the **Getting Started With the Julia Programming Language** workshop.
 
 ---
 
 # HelloJulia.jl
 
-Resources used by the author for a short *Introduction to Julia*
-workshop, and a longer *Getting started with Julia and machine
-learning* workshop. Tutorials 1 and 2, and some of the demos, are
-suitable for a one-hour workshop. Add the remaining material for a 3
-hour workshop. 
+Resources used by the author for a short *Introduction to Julia* workshop, and a longer
+*Getting started with Julia and machine learning* workshop. There is between 2 and 5 hours of material, depending on choice of material.
 
-Users are not assumed to have any familiarity with Julia but should be
-know some basic linear algebra and statistics (especially for the
-extended version).
-
-This README page summarizes some useful resources for starting out with Julia.
+Users are not assumed to have any familiarity with Julia but should be know some basic
+linear algebra and statistics (especially for the later sections).
 
 To **run demos and tutorials** presented in the workshop:
 
 [![here](https://img.shields.io/badge/run-demos%2Ftutorials-informational)](INSTALLATION.md)
 
+
+Some random resources for Julia newcomers:
 
 ## Is Julia for me?
 
@@ -39,18 +28,29 @@ To **run demos and tutorials** presented in the workshop:
   
 - [Slides for this workshop](/slides/slides.pdf)
 
-- [Why Julia?](https://indico.cern.ch/event/1074269/contributions/4539601/attachments/2317518/3945412/why-julia%20slides.pdf) - Motivation and comparison to other languages. Slides from a talk by Oliver Schulz, Max Planck Institute for Physics.  [Alternative link](https://github.com/oschulz/Why-Julia)
+- [Why
+  Julia?](https://indico.cern.ch/event/1074269/contributions/4539601/attachments/2317518/3945412/why-julia%20slides.pdf) -
+  Motivation and comparison to other languages. Slides from a talk by Oliver Schulz, Max
+  Planck Institute for Physics.  [Alternative link](https://github.com/oschulz/Why-Julia)
 
-- [Package search at JuliaHub](https://juliahub.com/ui/Packages) - Good for scouting out existing julia software (and communities) in your area of interest ([alternative search engine](https://juliapackages.com/packages?search=)).
+- [Package search at JuliaHub](https://juliahub.com/ui/Packages) - Good for scouting out
+  existing julia software (and communities) in your area of interest ([alternative search
+  engine](https://juliapackages.com/packages?search=)).
 
-- For experienced programmers: Julia is object-oriented but not in the way languages like python or C++. Rather it uses *multiple dispatch*. [This talk](https://www.youtube.com/watch?v=kc9HwsxE1OY) makes the case for this alternative paradigm.
+- For experienced programmers: Julia is object-oriented but not in the way languages like
+  python or C++. Rather it uses *multiple dispatch*. [This
+  talk](https://www.youtube.com/watch?v=kc9HwsxE1OY) makes the case for this alternative
+  paradigm.
+  
+- [Data Science and Machine Learning in
+  Julia](https://juliaai.github.io/DataScienceTutorials.jl/)
 
 
 ## First steps
 
-See [here](/FIRST_STEPS.md) on how to install Julia on your
-computer. To install and run the demos and tutorials in this
-respository, click [here](INSTALLATION.md)
+- [Installing Julia on my computer](/FIRST_STEPS.md)
+
+- [HelloJulia demos and tutorials](INSTALLATION.md)
 
 
 ## Advanced setup
@@ -81,9 +81,10 @@ channel](https://julialang.org/slack/). Also useful:
 
 - [DataFrames cheatsheet](https://ahsmart.com/pub/data-wrangling-with-data-frames-jl-cheat-sheet/index.html)
 
-- [MLJ cheatsheet](https://alan-turing-institute.github.io/MLJ.jl/dev/mlj_cheatsheet/)
+- [MLJ cheatsheet](https://JuliaAI.github.io/MLJ.jl/dev/mlj_cheatsheet/)
 
-- Get help on a command with `juia> ?some_command` at the REPL or `@doc ?some_command` in a notebook.
+- Get help on a command with `juia> ?some_command` at the REPL or `@doc ?some_command` in
+  a notebook.
 
 - `apropos("invert")` seaches for objects with "invert" in the doc string.
 

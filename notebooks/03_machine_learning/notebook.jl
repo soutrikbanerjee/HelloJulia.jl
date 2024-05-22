@@ -8,9 +8,9 @@
 # deep-learning).
 
 # For other MLJ learning resources see the [Learning
-# MLJ](https://alan-turing-institute.github.io/MLJ.jl/dev/learning_mlj/)
+# MLJ](https://JuliaAI.github.io/MLJ.jl/dev/learning_mlj/)
 # section of the
-# [manual](https://alan-turing-institute.github.io/MLJ.jl/dev/).
+# [manual](https://JuliaAI.github.io/MLJ.jl/dev/).
 
 
 # ## Activate package environment
@@ -239,9 +239,9 @@ accuracy(yhat, y_test)
 # List all performance measures with `measures()`. Naturally, MLJ
 # includes functions to automate this kind of performance evaluation,
 # but this is beyond the scope of this tutorial. See, eg,
-# [here](https://alan-turing-institute.github.io/MLJ.jl/dev/getting_started/#Getting-Started).
+# [here](https://JuliaAI.github.io/MLJ.jl/dev/getting_started/#Getting-Started).
 
 # ## Learning more
 
 # Some suggestions for next steps are
-# [here](https://alan-turing-institute.github.io/MLJ.jl/dev/getting_started/#Getting-Started).
+# [here](https://JuliaAI.github.io/MLJ.jl/dev/getting_started/#Getting-Started).

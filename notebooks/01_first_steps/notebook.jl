@@ -362,7 +362,7 @@ xs = 0:0.1:4 # floats from 0 to 4 in steps of 0.1
 ys = f.(xs)  # apply f element-wise to xs
 
 fig = lines(xs, ys)
-hist!(samples, normalization=:pdf, bins=40, alpha=0.4)
+hist!(samples, normalization=:pdf, bins=40, color=(:darkblue, 0.4))
 current_figure()
 
 #-
