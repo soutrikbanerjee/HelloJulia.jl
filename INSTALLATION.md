@@ -1,16 +1,5 @@
 # Demos and Tutorials
 
-Quick, static views of the demo and tutorial notebooks:
-
-|Notebook |
-|:-------:|
-|[Mandelbrot set demo](notebooks/mandelbrot/notebook.ipynb) |
-[Julia's secret sauce](notebooks/secret_sauce/notebook.ipynb) |
-[Package composability](notebooks/pkg_composability/notebook.ipynb) |
-[01 - First_steps](notebooks/01_first_steps/notebook.unexecuted.ipynb) |
-[02 - DataFrames](notebooks/02_dataframes/notebook.ipynb) |
-[03 - Machine learning](notebooks/03_machine_learning/notebook.ipynb) |
-
 ## Setup
 
 The following instructions only need to be executed successfully once:
