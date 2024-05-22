@@ -1,7 +1,7 @@
 ## &#10024; Participating in ResBaz 2024?
 
-Start [here](INSTALLATION.md) the **Getting Started With the Julia Programming Language**
-workshop.
+Start [here](INSTALLATION.md) to prepare for the **Getting Started With the Julia
+Programming Language** workshop.
 
 ---
 

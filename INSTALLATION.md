@@ -2,11 +2,11 @@
 
 ## Setup
 
-The following instructions only need to be executed successfully once:
+Setup is in **two** steps, which only need to be executed successfully once:
 
-- [Install a correct version of the Julia compiler](FIRST_STEPS.md).
+- 1. [Install a correct version of the Julia compiler](FIRST_STEPS.md).
 
-- **In a new Julia session** type the following at the `julia>` prompt, inlcuding a RETURN at the end of each line (or do copy/paste + one final RETURN):
+- 2. **In a new Julia session** type the following at the `julia>` prompt, inlcuding a RETURN at the end of each line (or do copy/paste + one final RETURN):
 
 ```julia
 ENV["JULIA_PKG_PRECOMPILE_AUTO"]=0
@@ -26,7 +26,8 @@ exit()
 ```
 
 **IF YOU ARE PREPARING FOR A JULIA WORKSHOP** you can stop now. You're ready for the
-workshop!
+workshop! If you have time and are familiar with Jupyter notebooks, try out option 2
+below.
 
 
 ## Running the demos and tutorials
