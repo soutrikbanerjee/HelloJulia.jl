@@ -1,7 +1,7 @@
 ## &#10024; Participating in ResBaz 2024?
 
-Start [here](https://github.com/ablaom/HelloJulia.jl/blob/dev/INSTALLATION.md#setup) for
-the **Getting Started With the Julia Programming Language** workshop.
+Start [here](INSTALLATION.md) the **Getting Started With the Julia Programming Language**
+workshop.
 
 ---
 
