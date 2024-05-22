@@ -17,7 +17,7 @@ The following instructions only need to be executed successfully once:
 
 - [Install a correct version of the Julia compiler](FIRST_STEPS.md).
 
-- **In a new Julia session** type the following at the `julia>` prompt:
+- **In a new Julia session** type the following at the `julia>` prompt, inlcuding a RETURN at the end of each line (or do copy/paste + one final RETURN):
 
 ```julia
 ENV["JULIA_PKG_PRECOMPILE_AUTO"]=0
@@ -30,10 +30,15 @@ Pkg.build("Conda")
 Pkg.build("IJulia")
 ENV["JULIA_PKG_PRECOMPILE_AUTO"]=1
 
+using HelloJulia
 using Pkg
 Pkg.test("HelloJulia")
 exit()
 ```
+
+**IF YOU ARE PREPARING FOR A JULIA WORKSHOP** you can stop now. You're ready for the
+workshop!
+
 
 ## Running the demos and tutorials
 
@@ -42,11 +47,11 @@ exit()
     Running notebooks for the first time may involve delays due to 
 	precompilation of newly installed packages.
 
-After starting a new Julia session, do this:
+After starting a new Julia session, enter these commands:
 
 ```julia
-julia> using Pkg; Pkg.activate(joinpath(Pkg.devdir(), "HelloJulia"))
-julia> using HelloJulia
+using Pkg; Pkg.activate(joinpath(Pkg.devdir(), "HelloJulia"))
+using HelloJulia
 ```
 
 Then: 
@@ -55,14 +60,22 @@ Then:
 
 - Enter `pluto()` at the `julia>` prompt.
 
+To kill the notebook server when finished, navigate to the window running Julia and enter
+CONTROL-C.
+
 ### Option 2: To run as Jupyter notebooks
 
-- Enter `juptyer()` at the `julia>` prompt.
+- Enter `juptyer()` at the `julia>` prompt. If asked, agree to install Jupyter using
+  Conda.
 
 - In the browser window that should appear, navigate to the folder of interest
 
 - Choose the file called `notebook.unexecuted.ipynb` (or
   `notebook.ipynb` to see pre-executed version)
+  
+To kill the notebook server when finished, navigate to the window running Julia and enter
+CONTROL-C.
+
 
 ### Option 3: To run as script in your editor
 
