@@ -75,7 +75,7 @@ begin
   @show mu var
 end
 
-# ╔═╡ f5122507-66bb-49ea-a0de-1721c1bc2df2
+# ╔═╡ 8130ea17-aa57-4733-a0de-1721c1bc2df2
 begin
   d = Normal(0, sqrt(2))
   f(x) = pdf(d, x)
@@ -84,7 +84,6 @@ begin
   ys = f.(xs);
   
   using CairoMakie
-  CairoMakie.activate!(type = "svg")
   
   fig = hist(samples, normalization=:pdf)
   lines!(xs, ys)
@@ -155,7 +154,7 @@ md"""
 # ╟─860bb453-c2f1-446d-8d7e-8e449afd1c48
 # ╟─cd6e9fce-e54a-48c3-a949-7f3bd292fe31
 # ╠═2da628f3-c301-4e4d-8514-99938a2932db
-# ╠═f5122507-66bb-49ea-a0de-1721c1bc2df2
+# ╠═8130ea17-aa57-4733-a0de-1721c1bc2df2
 # ╟─4f939d4a-e802-4b7d-bca8-7eec7950fd82
 # ╟─63f410ea-c37a-4761-9873-1b1430e635cc
 # ╠═cb2c42bf-21b5-4e04-b43e-d0ebe87da176

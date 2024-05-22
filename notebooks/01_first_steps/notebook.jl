@@ -350,9 +350,7 @@ using PkgOnlineHelp
 
 # ## Plotting
 
-using ElectronDisplay #src
 using CairoMakie
-CairoMakie.activate!(type = "png")
 
 #-
 

@@ -62,8 +62,6 @@ xs = -5:(0.1):5
 ys = f.(xs);
 
 using CairoMakie
-using ElectronDisplay #src
-CairoMakie.activate!(type = "svg") #nb
 
 fig = hist(samples, normalization=:pdf)
 lines!(xs, ys)

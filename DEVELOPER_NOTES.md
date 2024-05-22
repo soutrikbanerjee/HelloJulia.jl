@@ -27,9 +27,9 @@ generated won't run properly.
 
 ## Generating the notebooks
 
-To generate notebooks do `include("path/to/HelloJulia/src/generate_all.jl")`. For some tutorials, a notebook
-may not be generated, because of some known issue. A warning will be issued and you'll
-need to generate the relevant notebook by hand. 
+To generate notebooks do `> julia HelloJulia/src/generate_all.jl`. For some tutorials, a
+notebook may not be generated, because of some known issue. A warning will be issued and
+you'll need to generate the relevant notebook by hand.
 
 For example, to generate an executed python notebook for `notebooks/01_first_steps/`, copy
 `notebook.unexecuted.ipynb` to `notebook.ipynb`; execute the latter file and save.

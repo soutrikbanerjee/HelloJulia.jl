@@ -414,11 +414,8 @@ md"Uncomment and execute the next line to launch Distribution documentation in y
 # ╔═╡ 2a96dfa7-cf5a-4e7f-8704-dbab8e09b4f1
 md"## Plotting"
 
-# ╔═╡ 912dc07c-b98e-45fb-a02f-27b6c05e4d02
-begin
-  using CairoMakie
-  CairoMakie.activate!(type = "png")
-end
+# ╔═╡ abf0bff8-2645-4597-a02f-27b6c05e4d02
+using CairoMakie
 
 # ╔═╡ 8c61ce1f-4ef7-47c9-bea4-3d467d48781c
 begin
@@ -472,7 +469,7 @@ md"The following shows that named tuples share some behaviour with dictionaries:
 
 # ╔═╡ cb2c42bf-21b5-4e04-9727-ed822e4fd85d
 begin
-  t = (x = 1, y = "cat", z = 4.5
+  t = (x = 1, y = "cat", z = 4.5)
   keys(t)
 end
 
@@ -606,7 +603,7 @@ md"""
 # ╟─60aef579-9404-4272-8f78-ab549ef1544e
 # ╠═a35c0fe8-afc4-4eaf-a8a4-a53f5149481e
 # ╟─2a96dfa7-cf5a-4e7f-8704-dbab8e09b4f1
-# ╠═912dc07c-b98e-45fb-a02f-27b6c05e4d02
+# ╠═abf0bff8-2645-4597-a02f-27b6c05e4d02
 # ╠═8c61ce1f-4ef7-47c9-bea4-3d467d48781c
 # ╠═bf64e629-d0bc-4e89-97c5-2979af8a507d
 # ╟─a7f061b8-d1ed-4b1f-b639-63c76c72c513
