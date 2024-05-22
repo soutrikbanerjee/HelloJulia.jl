@@ -26,6 +26,10 @@ Pkg.test("HelloJulia")
 exit()
 ```
 
+You should see something roughly like this:
+
+![](assets/screenshot_post_install.png)
+
 **IF YOU ARE PREPARING FOR A JULIA WORKSHOP** you can stop now. You're ready for the
 workshop! If you have time and are familiar with Jupyter notebooks, try out option 2
 below.
