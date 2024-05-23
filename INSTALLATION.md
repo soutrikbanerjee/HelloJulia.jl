@@ -31,9 +31,7 @@ You should see something roughly like this:
 ![](assets/screenshot_post_install.png)
 
 **IF YOU ARE PREPARING FOR A JULIA WORKSHOP** you can stop now. You're ready for the
-workshop! If you have time and are familiar with Jupyter notebooks, try out option 2
-below.
-
+workshop! 
 
 ## Running the demos and tutorials
 
@@ -71,8 +69,7 @@ CONTROL-C.
 To kill the notebook server when finished, navigate to the window running Julia and enter
 CONTROL-C.
 
-
-### Option 3: To run as script in your editor
+### Option 4: To run as script in your editor
 
 For more experienced users and instructors.
 

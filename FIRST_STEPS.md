@@ -13,6 +13,7 @@ Follow these **four** steps to install Julia on your computer:
   [REPL](https://en.wikipedia.org/wiki/Read–eval–print_loop).
 
 4. *Testing.* At the `julia> ` prompt, type `println("Hello world!")` and press `RETURN`
-  or `ENTER`. The words "Hello world!" should be repeated back to you:
+  or `ENTER`. The words "Hello world!" should be repeated back to you. You can quit the
+  Julia session by typing `exit()` or entering `CONTROL+D`.
   
 ![Julia REPL screen shot](/assets/hello_world.png)
