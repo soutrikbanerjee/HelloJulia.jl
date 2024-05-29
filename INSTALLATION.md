@@ -46,8 +46,7 @@ This will take about 15 - 20 minutes to run through.
 **On Windows, you may get a message from Windows Defender Firewall** stating it has blocked Julia's network access. Press
 _Allow access_ to continue.
 
-Once finished,
-You should see something roughly like this:
+Once finished, you should see something roughly like this:
 
 ![](assets/screenshot_post_install.png)
 
