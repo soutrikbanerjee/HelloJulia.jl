@@ -2,11 +2,27 @@
 
 ## Setup
 
-Setup is in **two** steps, which only need to be executed successfully once:
+Setup is in **five** steps, first installing Julia, then installing packages that the workshop will require. Each step only needs to be executed successfully once.
 
-1. [Install a correct version of the Julia compiler](FIRST_STEPS.md).
+1. If you are a Windows user, install [Windows Terminal](https://aka.ms/terminal) and make
+   sure you know how to open a new terminal process (window), into which you can type
+   commands. If the link doesn't work, try a different browser. Windows Terminal will be how
+   you run Julia in this workshop. If you are a macOS or Linux user, you can use the Terminal app
+   that comes with your operating system.
 
-2. **In a new Julia session** type the following at the `julia>` prompt, inlcuding a
+3. Follow [these official installation instructions](https://julialang.org/downloads/).
+  
+4. Open a terminal window and type `julia`, and press `RETURN` or `ENTER`. This
+  launches a Julia session, a command-line interface for interacting with julia called
+  the [REPL](https://en.wikipedia.org/wiki/Read–eval–print_loop).
+
+6. *Testing.* At the `julia> ` prompt, type `println("Hello world!")` and press `RETURN`
+  or `ENTER`. The words "Hello world!" should be repeated back to you. This confirms Julia is installed.
+  Quit the Julia session by typing `exit()` or entering `CONTROL+D`.
+
+![Julia REPL screen shot](/assets/hello_world.png)
+
+5. **In a new Julia session** type the following at the `julia>` prompt, inlcuding a
    RETURN at the end of each line (or do copy/paste + one final RETURN):
 
 ```julia
@@ -25,8 +41,12 @@ using Pkg
 Pkg.test("HelloJulia")
 exit()
 ```
+This will take about 15 - 20 minutes to run through. 
 
-You should see something roughly like this:
+**On Windows, you may get a message from Windows Defender Firewall** stating it has blocked Julia's network access. Press
+_Allow access_ to continue.
+
+Once finished, you should see something roughly like this:
 
 ![](assets/screenshot_post_install.png)
 
