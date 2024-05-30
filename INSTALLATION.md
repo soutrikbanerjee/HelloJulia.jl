@@ -55,10 +55,8 @@ workshop!
 
 ## Running the demos and tutorials
 
-!!! Note
-
-    Running notebooks for the first time may involve delays due to 
-	precompilation of newly installed packages.
+**Note.** Running notebooks for the first time may involve delays due to precompilation of
+newly installed packages.
 
 After starting a new Julia session, enter these commands:
 

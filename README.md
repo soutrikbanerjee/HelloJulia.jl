@@ -56,50 +56,7 @@ Some random resources for Julia newcomers:
   Julia](https://juliaai.github.io/DataScienceTutorials.jl/)
 
 
-## First steps
-
-- [Installing Julia on my computer](/FIRST_STEPS.md)
-
-- [HelloJulia demos and tutorials](INSTALLATION.md)
-
-
-## Advanced setup
-
-Once you are familiar with basic interaction using the REPL, you will want to:
-
-- Hook your Julia installation up with an editor or integrated
-  development environment (IDE) so you can efficiently edit, run and
-  debug longer julia scripts. See [these
-  options](https://julialang.org) (scroll down to "Editors and IDEs"
-  and "Essential Tools"). If you don't have an existing preference I
-  recommend VS Code. I prefer emacs, but it is much older and has a
-  steeper learning curve.
-
-- Or, interact with Julia using a notebook. Here you have two options:
-  - Juptyer notebooks (used also for R and python) - follow [these
-	instructions](https://github.com/JuliaLang/IJulia.jl).
-  - [Pluto](https://github.com/fonsp/Pluto.jl) "reactive" notebooks (specific to Julia)
-
-
-## Getting help
-
-Popular forums for asking your julia questions are [Julia
-Discourse](https://discourse.julialang.org) and the [Julia Slack
-channel](https://julialang.org/slack/). Also useful:
-
-- [Julia cheatsheet](https://juliadocs.github.io/Julia-Cheat-Sheet/).
-
-- [DataFrames cheatsheet](https://ahsmart.com/pub/data-wrangling-with-data-frames-jl-cheat-sheet/index.html)
-
-- [MLJ cheatsheet](https://JuliaAI.github.io/MLJ.jl/dev/mlj_cheatsheet/)
-
-- Get help on a command with `juia> ?some_command` at the REPL or `@doc ?some_command` in
-  a notebook.
-
-- `apropos("invert")` seaches for objects with "invert" in the doc string.
-
-
-## Learning Julia
+## Other ways to learn Julia
 
 ### If you have little or no prior programming experience
 
@@ -134,6 +91,45 @@ and Best Julia Practices with Julia](https://www.perlego.com/book/1365831/handso
 I wished existed when I started. I learned Julia from the
 [manual](https://docs.julialang.org/en/v1/) which is, however,
 excellent.
+
+
+## Advanced setup
+
+Once you are familiar with basic interaction using the REPL, you will want to:
+
+- Hook your Julia installation up with an editor or integrated
+  development environment (IDE) so you can efficiently edit, run and
+  debug longer julia scripts. See [these
+  options](https://julialang.org) (scroll down to "Editors and IDEs"
+  and "Essential Tools"). If you don't have an existing preference I
+  recommend VS Code. I prefer emacs, but it is much older and has a
+  steeper learning curve.
+
+- Or, interact with Julia using a notebook. Here you have two options:
+  - Juptyer notebooks (used also for R and python) - follow [these
+	instructions](https://github.com/JuliaLang/IJulia.jl).
+  - [Pluto](https://github.com/fonsp/Pluto.jl) "reactive" notebooks (specific to Julia)
+  These formats are also provided by the HelloJulia.jl [tutorials](INSTALLATION.md).
+
+
+## Getting help
+
+Popular forums for asking your julia questions are [Julia
+Discourse](https://discourse.julialang.org) and the [Julia Slack
+channel](https://julialang.org/slack/). Also useful:
+
+- [Julia cheatsheet](https://juliadocs.github.io/Julia-Cheat-Sheet/).
+
+- [DataFrames cheatsheet](https://ahsmart.com/pub/data-wrangling-with-data-frames-jl-cheat-sheet/index.html)
+
+- [MLJ cheatsheet](https://JuliaAI.github.io/MLJ.jl/dev/mlj_cheatsheet/)
+
+- Get help on a command with `juia> ?some_command` at the REPL or `@doc ?some_command` in
+  a notebook.
+
+- `apropos("invert")` seaches for objects with "invert" in the doc string.
+
+
 
 **Acknowledgements.** Some slides used in the presentation for this
 workshop, and included [here](/slides), are based on material
