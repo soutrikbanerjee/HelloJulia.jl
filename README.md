@@ -24,7 +24,7 @@ Here are static views of the demos and tutorial notebooks:
 |[Mandelbrot set demo](notebooks/mandelbrot/notebook.md) |
 [Julia's secret sauce](notebooks/secret_sauce/notebook.md) |
 [Package composability](notebooks/pkg_composability/notebook.md) |
-[01 - First_steps](notebooks/01_first_steps/notebook.unexecuted.md) |
+[01 - First_steps](notebooks/01_first_steps/notebook.md) |
 [02 - DataFrames](notebooks/02_dataframes/notebook.md) |
 [03 - Machine learning](notebooks/03_machine_learning/notebook.md) |
 
