@@ -87,6 +87,10 @@ CONTROL-C.
 To kill the notebook server when finished, navigate to the window running Julia and enter
 CONTROL-C.
 
+### Option 3: Copy and paste into the REPL
+
+Choose a static tutorial from the table in the [README.md](README.md) and copy-paste the contents of cells at the `julia> ` prompt.
+
 ### Option 4: To run as script in your editor
 
 For more experienced users and instructors.
